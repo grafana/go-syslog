@@ -6,7 +6,7 @@ jobs:
     environment:
       GOCACHE: /tmp/go-cache
       GOFLAGS: "-mod=readonly -p=4"
-    working_directory: "/go/src/github.com/influxdata/go-syslog"
+    working_directory: "/go/src/github.com/grafana/go-syslog"
     steps:
       - checkout
       - restore_cache:

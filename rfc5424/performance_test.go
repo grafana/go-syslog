@@ -3,8 +3,8 @@ package rfc5424
 import (
 	"testing"
 
-	"github.com/influxdata/go-syslog/v3"
-	syslogtesting "github.com/influxdata/go-syslog/v3/testing"
+	"github.com/grafana/go-syslog/v3"
+	syslogtesting "github.com/grafana/go-syslog/v3/testing"
 )
 
 // This is here to avoid compiler optimizations that

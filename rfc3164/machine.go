@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/influxdata/go-syslog/v3"
-	"github.com/influxdata/go-syslog/v3/common"
+	"github.com/grafana/go-syslog/v3"
+	"github.com/grafana/go-syslog/v3/common"
 )
 
 var (
