@@ -3,9 +3,9 @@ package nontransparent
 import (
 	"io"
 
-	syslog "github.com/influxdata/go-syslog/v3"
-	"github.com/influxdata/go-syslog/v3/rfc3164"
-	"github.com/influxdata/go-syslog/v3/rfc5424"
+	syslog "github.com/grafana/go-syslog/v3"
+	"github.com/grafana/go-syslog/v3/rfc3164"
+	"github.com/grafana/go-syslog/v3/rfc5424"
 	parser "github.com/leodido/ragel-machinery/parser"
 )
 
